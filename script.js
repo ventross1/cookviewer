@@ -1,4 +1,4 @@
-const api = "http://localhost/cookviewer/"
+const api = "http://localhost/cookviewer/recipes.php"
 function load(url, element) {
   fetch(url)
     .then((response) => response.text())
@@ -6,4 +6,4 @@ function load(url, element) {
       element.innerHTML = data
     })
 }
-load(api + "recipes.php", document.getElementById("recipes"))
+load(api, document.getElementById("recipes"))

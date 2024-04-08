@@ -11,10 +11,8 @@ body {
 header {
   margin-left: 20em;
   margin-right: 20em;
-  svg {
-    width: 200px;
-  }
 }
+
 main {
   margin-left: 20em;
   margin-right: 20em;
